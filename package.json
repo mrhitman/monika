@@ -1,0 +1,14 @@
+{
+  "name": "monika",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:dev": "node esbuild.config.js -w"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "esbuild-serve": "^1.0.1"
+  }
+}
